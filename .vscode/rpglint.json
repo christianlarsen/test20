@@ -1,0 +1,29 @@
+{
+    "BlankStructNamesCheck": false,
+    "QualifiedCheck": true,
+    "PrototypeCheck": true,
+    "ForceOptionalParens": true,
+    "NoOCCURS": true,
+    "NoSELECTAll": true,
+    "UppercaseConstants": true,
+    "IncorrectVariableCase": true,
+    "RequiresParameter": true,
+    "StringLiteralDupe": true,
+    "NoSQLJoins": true,
+    "NoCTDATA": true,
+    "PrettyComments": true,
+    "UppercaseDirectives": true,
+    "RequireBlankSpecial": true,
+    "RequiresProcedureDescription": true,
+    "NoGlobalsInProcedures": true,
+    "CopybookDirective": "include",
+    "UselessOperationCheck": true,
+    "SpecificCasing": [
+      { "operation": "FOR",
+        "expected": "for"
+      },
+      { "operation": "DSPLY",
+        "expected": "dsply"
+      }
+    ]
+  }
