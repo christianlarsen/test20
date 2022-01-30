@@ -4,5 +4,5 @@
      A          R DATA00
      A                                  4 36' TEST 20 '
      A                                      DSPATR(UL)
-     A            WSMESSAGE     20   O  8 31
+     A            WSMESSAGE     30   O  8 31
      A                                 23  3'F3=End'

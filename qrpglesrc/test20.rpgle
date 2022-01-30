@@ -1,7 +1,7 @@
 **free
 
 dcl-f test20 workstn
-    extdesc('CLV/TEST20')
+    extdesc('CLV1/TEST20')
     extfile(*extdesc)
     indds(wsind);
 
@@ -16,15 +16,13 @@ wsmessage = 'Hello world, from IBM i';
 
 dou (exit00 = OK);
 
-    exfmt data00;
+    exfmt DATA00;
 
     select;
         when (wsind.f3);
             exit00 = OK;
     endsl;
 enddo;
-
-dsply 'Hello world';
 
 *inlr = '1';
 return;
