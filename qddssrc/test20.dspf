@@ -1,0 +1,8 @@
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      INDARA
+     A                                      CA03(03 'F3=End')
+     A          R DATA00
+     A                                  4 36' TEST 20 '
+     A                                      DSPATR(UL)
+     A            WSMESSAGE     20   O  8 31
+     A                                 23  3'F3=End'
