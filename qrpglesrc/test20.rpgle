@@ -3,7 +3,7 @@
 dcl-f test20 workstn
     extdesc('CLV1/TEST20')
     extfile(*extdesc)
-    indds(test20ind);
+    indds(wsind);
 
 dcl-c OK 'S';
 dcl-s exit00 char(1);
