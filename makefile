@@ -12,7 +12,7 @@ test20.rpgle: test20.dspf
 	liblist -a $(LIBLIST);\
 	system "CRTBNDRPG PGM($(BIN_LIB)/$*) SRCSTMF('/home/CLV/test20/qrpglesrc/$*.rpgle') DBGVIEW(*SOURCE) OPTION(*EVENTF)"
 
-%.dsplf:
+%.dspf:
 	-system -qi "CRTSRCPF FILE($(BIN_LIB)/QDDSSRC) RCDLEN(112)"
 	system "CPYFRMSTMF FROMSTMF('/home/CLV/test20/qddssrc/$.dspf') TOMBR('/QSYS.lib/$(BIN_LIB).lib/QDDSSRC.file/$*.mbr') MBROPT(*REPLACE)"
 	system -s "CRTDSPF FILE($(BIN_LIB)/$*) SRCFILE($(BIN_LIB)/QDDSSRC) SRCMBR($*)"
